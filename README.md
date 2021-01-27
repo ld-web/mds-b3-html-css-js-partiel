@@ -33,7 +33,7 @@ Enfin, un footer sera présent en bas de page, avec un formulaire d'inscription 
 - Articles
 - Contact
 
-> Note : la page de contact n'est pas obligatoire, elle est en bonus
+> Note : la page de contact n'est pas à faire
 
 ## Modèle de réalisation de la page d'accueil
 
@@ -45,27 +45,21 @@ Enfin, un footer sera présent en bas de page, avec un formulaire d'inscription 
 
 ![home preview mobile](doc/home_preview_mobile.png "home preview mobile")
 
-## Javascript
-
-Lors du clic sur "Inscription", une modale s'affichera avec un message de confirmation :
-
-![home preview mobile](doc/modal_confirm.gif "home preview mobile")
-
 ## Page article
 
 La page d'un article seul est **complètement libre**.
 
 Voici les spécifications générales :
 
-- Faire apparaître un menu principal
+- Faire apparaître un menu principal en haut de page
 - Les informations apparaissant pour l'article seront les suivantes :
-  - Nom
+  - Nom de l'article
   - Image (format assez large, comme une image d'en-tête)
-  - Date
-  - Liste de tags, par exemple : ![badges exemple](doc/badge_example.png "badges exemple")
+  - Date (DD/MM/YYYY)
+  - Liste de tags ou catégories, par exemple : ![badges exemple](doc/badge_example.png "badges exemple")
   - Auteur :
     - Nom et photo de profil en petit, par exemple :
       ![Auteur exemple](doc/author_example.png "Auteur exemple")
   - Contenu :
-    - Les contenus doivent présenter des paragraphes, des images, des listes, et différents niveaux de titres, sous-titres, sections, etc...
-- La page d'article contiendra également un footer
+    - Le contenu de l'article doit présenter des paragraphes, des images, des listes, et différents niveaux de titres, sous-titres, etc...
+- La page d'article contiendra également un footer, similaire à celui de la page d'accueil
